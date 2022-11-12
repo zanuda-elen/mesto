@@ -1,0 +1,22 @@
+.header {
+  max-width: 880px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+/* @media screen and (max-width: 575px) {
+  .header {
+  }
+} */
+
+/* @media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 767px) {
+} */
+
+/* @media screen and (max-width: 575px) {
+} */
