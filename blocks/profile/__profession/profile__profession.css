@@ -1,0 +1,17 @@
+.profile__profession {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  grid-area: profile__profession;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  .profile__profession {
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 14px;
+    margin-bottom: 36px;
+  }
+}

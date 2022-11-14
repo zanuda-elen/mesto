@@ -1,0 +1,37 @@
+.profile__editContainer {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: minmax(120px, 1fr) minmax(min-content, max-content);
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "profile__avatar profile__buttonAlign"
+    "profile__avatar profile__profession";
+  column-gap: 30px;
+  align-items: end;
+}
+
+@media screen and (max-width: 768px) {
+  .profile__editContainer {
+    grid-template-columns: minmax(min-content, 1fr);
+    grid-template-rows: minmax(min-content, max-content);
+    grid-template-areas:
+      "profile__avatar"
+      "profile__buttonAlign"
+      "profile__profession";
+    justify-items: center;
+    align-items: flex-start;
+  }
+}
+
+/* @media screen and (max-width: 575px) {
+  .profile__editContainer {
+    grid-template-columns: minmax(min-content, 1fr);
+    grid-template-rows: minmax(min-content, max-content);
+    grid-template-areas:
+      "profile__avatar"
+      "profile__buttonAlign"
+      "profile__profession";
+    justify-items: center;
+    align-items: flex-start;
+  }
+} */

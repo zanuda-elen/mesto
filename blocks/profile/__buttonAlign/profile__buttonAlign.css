@@ -1,0 +1,12 @@
+.profile__buttonAlign {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  grid-area: profile__buttonAlign;
+}
+
+@media screen and (max-width: 768px) {
+  .profile__buttonAlign {
+    margin-top: 26px;
+  }
+}

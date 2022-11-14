@@ -1,0 +1,16 @@
+.profile__editButton {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (max-width: 575px) {
+  .profile__editButton {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+  }
+}

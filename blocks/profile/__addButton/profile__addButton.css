@@ -1,0 +1,25 @@
+.profile__addButton {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  background-image: url(../../../images/Add\ Button.svg);
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .profile__addButton {
+    width: 100%;
+    background-image: url(../../../images/Add\ Button2.svg);
+    background-position: center;
+  }
+}
+
+/* @media screen and (max-width: 575px) {
+  .profile__addButton {
+    width: 100%;
+    background-image: url(../../../images/Add\ Button2.svg);
+  }
+} */
