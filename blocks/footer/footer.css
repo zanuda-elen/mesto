@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  margin: 0 auto;
+  max-width: 880px; /*сделано по ширине хедера для выравнивания*/
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header {
+    max-width: 282px;
+  }
+}

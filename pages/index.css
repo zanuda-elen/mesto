@@ -30,3 +30,7 @@
 @import url(../blocks/elements/__informationSocial/elements__informationSocial.css);
 @import url(../blocks/elements/__text/elements__text.css);
 @import url(../blocks/elements/__buttonLike/elements__buttonLike.css);
+
+/*footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
