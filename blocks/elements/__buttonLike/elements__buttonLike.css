@@ -1,0 +1,10 @@
+.elements__buttonLike {
+  max-width: 22px;
+  max-height: 19px;
+  padding: 0;
+  border: none;
+  border-radius: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #000;
+}

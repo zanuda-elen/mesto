@@ -1,12 +1,12 @@
 .profile__buttonAlign {
   display: flex;
-  gap: 10px;
+  gap: 18px;
   align-items: baseline;
   grid-area: profile__buttonAlign;
 }
 
 @media screen and (max-width: 768px) {
   .profile__buttonAlign {
-    margin-top: 26px;
+    margin: 26px 0 0 28px;
   }
 }

@@ -9,17 +9,17 @@
   height: 50px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .profile__addButton {
     width: 100%;
     background-image: url(../../../images/Add\ Button2.svg);
     background-position: center;
+    margin-top: 36px;
   }
 }
 
-/* @media screen and (max-width: 575px) {
+@media screen and (max-width: 768px) {
   .profile__addButton {
-    width: 100%;
-    background-image: url(../../../images/Add\ Button2.svg);
+    margin-top: 0;
   }
-} */
+}

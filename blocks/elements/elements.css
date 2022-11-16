@@ -1,0 +1,19 @@
+.elements {
+  display: grid;
+  align-items: center;
+  max-width: 880px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .elements {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .elements {
+    max-width: 282px;
+  }
+}
