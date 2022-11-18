@@ -1,0 +1,20 @@
+.popup__inputProfession {
+  width: 358px;
+  height: 26px;
+  margin-bottom: 48px;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  border-width: 0 0 1px;
+  border-color: #000;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 575px) {
+  .popup__inputProfession {
+    width: 238px;
+    margin-bottom: 44px;
+  }
+}
