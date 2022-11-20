@@ -5,6 +5,10 @@
   line-height: 22px;
   grid-area: profile__profession;
   align-self: flex-start;
+  max-width: 336px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 768px) {
@@ -13,5 +17,6 @@
     line-height: 1.21;
     margin-top: 10px;
     margin-bottom: 30px;
+    max-width: 282px;
   }
 }

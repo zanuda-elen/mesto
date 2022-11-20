@@ -1,10 +1,14 @@
 .elements__buttonLike {
-  max-width: 22px;
-  max-height: 19px;
+  background-image: url(../../../images/Vector.svg);
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 19px;
   padding: 0;
   border: none;
-  border-radius: none;
   background-color: transparent;
   cursor: pointer;
-  color: #000;
+}
+
+.elements__buttonLike:active {
+  background-image: url(../../../images/VectorActiv.png);
 }
