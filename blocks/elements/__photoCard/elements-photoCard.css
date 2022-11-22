@@ -1,0 +1,5 @@
+.elements-photoCard {
+  width: 282px;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}

@@ -1,8 +1,12 @@
 .profile__editButton {
   padding: 0;
+  background-image: url(../../../images/Pen.png);
+  background-repeat: no-repeat;
+  background-position: center;
   border: none;
   background-color: transparent;
   cursor: pointer;
+  border: 1px solid #fff;
   width: 24px;
   height: 24px;
 }
@@ -11,6 +15,5 @@
   .profile__editButton {
     width: 18px;
     height: 18px;
-    object-fit: contain;
   }
 }

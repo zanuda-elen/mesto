@@ -1,11 +1,9 @@
 .elements__card {
+  display: grid;
+  grid-template-rows: 282px 79px;
   list-style-type: none;
   background-color: #fff;
   border-radius: 10px;
-  max-width: 282px;
-  width: 100%;
-  max-height: 361px;
-  height: 100%;
   align-items: center;
   object-fit: contain;
   overflow: hidden;

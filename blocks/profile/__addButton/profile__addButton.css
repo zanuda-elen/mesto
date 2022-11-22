@@ -3,18 +3,18 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
-  background-image: url(../../../images/AddButton.svg);
+  background-image: url(../../../images/plus.png);
+  background-position: center;
   background-repeat: no-repeat;
+  border: 2px solid #fff;
   width: 150px;
   height: 50px;
 }
 
 @media screen and (max-width: 900px) {
   .profile__addButton {
-    width: 100%;
-    background-image: url(../../../images/AddButton2.svg);
-    background-position: center;
     margin-top: 36px;
+    width: 282px;
   }
 }
 

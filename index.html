@@ -21,23 +21,17 @@
           />
           <div class="profile__buttonAlign">
             <h1 class="profile__fullName">Жак-Ив Кусто</h1>
-            <button class="profile__editButton hover" type="button">
-              <img
-                class="profile__editButton"
-                src="./images/EditButton.svg"
-                alt="Кнопка добавить"
-              />
-            </button>
+            <button class="profile__editButton hover" type="button"></button>
           </div>
           <p class="profile__profession">Исследователь океана</p>
         </div>
         <button class="profile__addButton hover" type="button"></button>
       </section>
       <section class="elements">
-        <div class="elements__container">
-          <div class="elements__card">
+        <ul class="elements__container">
+          <li class="elements__card">
             <img
-              class="elements__photoCard"
+              class="elements-photoCard"
               src="./images/OsakaJapan.jpg"
               alt="Осака Япония"
             />
@@ -45,10 +39,10 @@
               <p class="elements__text">Япония</p>
               <button class="elements__buttonLike hover" type="button"></button>
             </div>
-          </div>
-          <div class="elements__card">
+          </li>
+          <li class="elements__card">
             <img
-              class="elements__photoCard"
+              class="elements-photoCard"
               src="./images/Rahnsdorf-Germany.jpg"
               alt="Ренсдорф Германия"
             />
@@ -56,10 +50,10 @@
               <p class="elements__text">Германия</p>
               <button class="elements__buttonLike hover" type="button"></button>
             </div>
-          </div>
-          <div class="elements__card">
+          </li>
+          <li class="elements__card">
             <img
-              class="elements__photoCard"
+              class="elements-photoCard"
               src="./images/SchiederweiherAustria.jpg"
               alt="Шидервейхер Австрия"
             />
@@ -67,10 +61,10 @@
               <p class="elements__text">Австрия</p>
               <button class="elements__buttonLike hover" type="button"></button>
             </div>
-          </div>
-          <div class="elements__card">
+          </li>
+          <li class="elements__card">
             <img
-              class="elements__photoCard"
+              class="elements-photoCard"
               src="./images/CopacobanaRio.jpg"
               alt="Копакабана Рио Бразилия"
             />
@@ -78,10 +72,10 @@
               <p class="elements__text">Бразилия</p>
               <button class="elements__buttonLike hover" type="button"></button>
             </div>
-          </div>
-          <div class="elements__card">
+          </li>
+          <li class="elements__card">
             <img
-              class="elements__photoCard"
+              class="elements-photoCard"
               src="./images/AdirondackMountains.jpg"
               alt="Горы Адирондак Нью Йорк"
             />
@@ -89,10 +83,10 @@
               <p class="elements__text">США</p>
               <button class="elements__buttonLike hover" type="button"></button>
             </div>
-          </div>
-          <div class="elements__card">
+          </li>
+          <li class="elements__card">
             <img
-              class="elements__photoCard"
+              class="elements-photoCard"
               src="./images/CappadociaTurkey.jpg"
               alt="Каппадокия Турция"
             />
@@ -100,34 +94,34 @@
               <p class="elements__text">Турция</p>
               <button class="elements__buttonLike hover" type="button"></button>
             </div>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
     </main>
     <section class="footer">
-      <h2 class="footer__copyright">&copy; 2022 Mesto Russia</h2>
+      <p class="footer__copyright">&copy; 2022 Mesto Russia</p>
     </section>
     <section class="popup">
       <div class="popup__container">
         <h2 class="popup__title">Редактировать профиль</h2>
         <button class="popup__close hover" type="button"></button>
-        <form class="popup__content" name="formPopup">
+        <form class="popup__form" name="popupForm">
           <input
             type="text"
-            placeholder="Жак-Ив Кусто"
-            class="popup__input popup__input_name"
+            placeholder="Имя Фамилия"
+            class="popup__input popup__input_type_name"
             name="name"
           />
           <input
             type="text"
-            placeholder="Исследователь океана"
-            class="popup__input popup__input_profession"
+            placeholder="О Себе"
+            class="popup__input popup__input_type_profession"
             name="description"
           />
           <button class="popup__saveButton hover" type="submit"></button>
         </form>
       </div>
     </section>
-    <script src="./scripts/index.js"></script>
+    <script src="./scripts/index.js" defer></script>
   </body>
 </html>

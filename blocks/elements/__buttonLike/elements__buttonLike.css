@@ -1,6 +1,7 @@
 .elements__buttonLike {
   background-image: url(../../../images/Vector.svg);
   background-repeat: no-repeat;
+  background-position: center;
   width: 22px;
   height: 19px;
   padding: 0;

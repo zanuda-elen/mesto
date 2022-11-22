@@ -6,6 +6,6 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 282px;
+  max-width: 224px; /*max ширина элемента - ширина сердечка*/
   margin: 0;
 }

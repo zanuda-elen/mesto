@@ -1,8 +1,8 @@
 .elements__informationSocial {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   background-color: #fff;
-  max-height: 79px;
-  height: 100%;
-  margin: 25px 15px 31px 21px;
+  max-width: 246px;
+  padding: 0 15px 0 21px;
 }
