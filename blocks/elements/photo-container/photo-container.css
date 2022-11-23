@@ -1,4 +1,4 @@
-.elements__container {
+.photo-container {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: 575px) {
-  .elements__container {
+  .photo-container {
     max-width: 282px;
   }
 }

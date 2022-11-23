@@ -1,5 +1,5 @@
 .popup__saveButton {
-  background-image: url(../../../images/Сохранить.png);
+  background-image: url(../../../images/saveButton.svg);
   background-repeat: no-repeat;
   background-position: center;
   object-fit: contain;
@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 575px) {
   .popup__saveButton {
-    background-image: url(../../../images/Сохранить2.png);
+    background-image: url(../../../images/saveButtonMob.svg);
     width: 238px;
     height: 46px;
   }
